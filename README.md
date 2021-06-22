@@ -21,6 +21,10 @@ $rows = $csvParser->getRows();
 
 run test.php
 
+# Notes
+
+By the way, I recommend you to use fgetcsv.
+
 # Author
 
 https://twitter.com/kituneponyo
