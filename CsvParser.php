@@ -2,9 +2,7 @@
 
 class CsvParser
 {
-	var $data;
-	var $l; // length of data;
-	var $i = 0; // index
+	var $data, $l, $i; // csv, length of csv, index
 
 	public function load ($filePath) {
 		$this->i = 0;
